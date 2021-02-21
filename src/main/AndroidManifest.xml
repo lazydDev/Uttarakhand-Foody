@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.decentcafe.uttarakhandifoody">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UttarakhandiFoody">
+        <activity android:name=".Arsa"></activity>
+        <activity android:name=".Dubuk" />
+        <activity android:name=".Ag" />
+        <activity android:name=".Kks" />
+        <activity android:name=".SpalshActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Akj" />
+        <activity android:name=".Phanu" />
+        <activity android:name=".Gkf" />
+        <activity android:name=".Register" />
+        <activity android:name=".Bhang" />
+        <activity android:name=".kafuli" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
